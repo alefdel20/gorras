@@ -1,3 +1,3 @@
 FROM nginx:alpine
-WORKDIR /usr/share/nginx/html/
-COPY . .
+COPY gorras-landing.html /usr/share/nginx/html/index.html
+EXPOSE 80
